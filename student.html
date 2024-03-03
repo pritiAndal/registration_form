@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>REGISTRATION FORM</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <div class="main">
+        <div class="register">
+            <h1>Register Here</h1>
+            <form action="connect.php" method="post"  enctype="multipart/form-data">
+            
+            <label>First Name: </label>
+            <br>
+            <input type="text" name="fname"
+            id="name" placeholder="Enter Your First Name">
+            <br><br>
+            <label>Last Name: </label>
+            <br>
+            <input type="text" name="lname"
+            id="name" placeholder="Enter Your Last Name">
+            <br><br>
+            <label>College Name </label>
+            <br>
+            <input type="text" name="cname"
+            id="name" placeholder="Enter Your collage Name">
+            <br><br>
+            <label>DOB </label>
+            <br>
+            <input type="date" name="dob"
+            id="calender" placeholder="Choose From Calender">
+            <br><br>
+            <label>State </label>
+            <br>
+            <div class="input-name">
+                <select name="state" class="state">
+                    <option>State</option>
+                    <option>WEST BENGAL</option>
+                    <option>BIHAR</option>
+                    <option>JHARKHAND</option>
+                    <option>ORISSA</option>
+                    <option>MADHYA PRADESH</option>
+                    <option>ASSAM</option>
+                    <option>TRIPURA</option>
+                    <option>ANURACHAL PRADESH</option>
+                    <option>SIKKIM</option>
+                    <option>UTTAR PRADESH</option>
+                    <option>DELHI</option>
+                    <option>CHANDIGARH</option>
+                    <option>PUNJAB</option>
+                    <option>JAMU KASHMIR</option>
+                    <option>UTTARKHAND</option>
+                    <option>RAJASTHAN</option>
+                    <option>GUJRAT</option>
+                    <option>MADHYA PRADESH</option>
+                    <option>KARNATAK</option>
+                    <option>TELANGANA</option>
+                    <option>NAGALAND</option>
+                    <option>HARYANA</option>
+                    <option>GOA</option>
+                    <option>TAMIL NADU</option>
+                    <option>KERALA</option>
+                </select>
+                <div class="arrow"></div>
+            </div>
+            <label for="email">Email: </label>
+            <br>
+            <input type="email" name="email"
+            id="name" placeholder="Enter Your Valid Email Id">
+            <br><br>
+            <label>Gender :</label>
+            <br>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" id="male">
+            &nbsp;
+            <span id="male">Male</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" id="female">
+            &nbsp;
+            <span id="female">Female</span>
+            <br><br>
+            <label>Language Known: </label>
+            &nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="lang" id="eng">
+            &nbsp;
+            <span id="eng">English</span>
+            &nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="lang" id="hindi">
+            &nbsp;
+            <span id="hindi">Hindi</span>
+            <br><br>
+            <label for="profilePhoto">Upload Your Profile Photo:</label>
+            <input type="file" id="profilePhoto" name="profilephoto" accept=".jpg, .jpeg, .png" value="">
+            <br><br>
+            &nbsp;
+            <input type="checkbox" name="check-button" id="accept">
+            &nbsp;
+            <span id="accept">I ACCEPT THE TERMS AND CONDITIONS</span>
+            <br><br>
+
+            <h2><input type="submit" value="Submit" name="submit" id="submit"></h2>
+            </form>
+        </div>   
+        </div>
+    </body>
+    </html>
